@@ -49,9 +49,12 @@
 
 /* Lektionen starter her. */
 .flex-container {
-
+  display: flex;
+  border: 10px solid #000;
+  height: 100vh;
+  align-items: flex-start;
 }
 
 .box4 {
-
+align-self: flex-start ;
 }

@@ -45,3 +45,42 @@ p {
 }
 
 /* Lektionen starter her. */
+
+.flex-container {
+  min-height: 720px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+}
+
+.flex-item-content {
+  max-width: 540px;
+  flex: 1 1 50%;
+  padding-right: 50px;
+}
+
+
+.flex-item-video{
+  max-width: 540px;
+  flex: 1 2 50%;
+}
+
+.flex-item-video video {
+  width: 100%;
+}
+
+@media screen and (max-width: 700ox) {
+  header {
+    padding: 40px;
+  }
+
+  .flex-container{
+    gap: 50px;
+  }
+
+.flex.flex-item-content,
+.flex-item-video{
+  flex: 1 1 100%
+}
+}

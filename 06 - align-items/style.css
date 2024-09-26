@@ -49,17 +49,21 @@
 
 /* Lektionen starter her. */
 .flex-container {
-
+  display: flex;
+  border: 10px solid #000;
+  height: 100vh;
+  align-items: baseline;
+  flex-direction: column;
 }
 
 .box5 {
- 
+ font-size: 160px;
 }
 
 .box4 {
-
+font-size: 30px;
 }
 
 .box8 {
-  
+  font-size: 20px;
 }

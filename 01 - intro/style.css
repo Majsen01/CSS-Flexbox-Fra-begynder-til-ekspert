@@ -49,5 +49,9 @@
 
 /* Lektionen starter her. */
 .flex-container {
-
+display: flex;
+border: 10px solid #000;
+flex-direction: row;
+flex-wrap: wrap;
 }
+ 
